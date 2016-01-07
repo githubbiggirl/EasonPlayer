@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC084B301C1EEC5700A59BBD /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC084B2F1C1EEC5700A59BBD /* AlbumViewController.m */; };
+		CC084B341C1EED0000A59BBD /* EasonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC084B331C1EED0000A59BBD /* EasonScrollView.m */; };
+		CC1FC6211C1A6FAA00BABC15 /* 陈奕迅 - 陪你度过漫长岁月.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC1FC6201C1A6FAA00BABC15 /* 陈奕迅 - 陪你度过漫长岁月.mp3 */; };
+		CC4CDCE41C1D8313008EA32B /* 陈奕迅 - K歌之王.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC4CDCE31C1D8313008EA32B /* 陈奕迅 - K歌之王.mp3 */; };
+		CC5F86A01C23D46600487886 /* process_thumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5F869F1C23D46600487886 /* process_thumb@2x.png */; };
+		CC5F86A31C23E6C600487886 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F86A21C23E6C600487886 /* UIView+Extension.m */; };
+		CC5F86E61C243DD300487886 /* LRCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5F86E51C243DD300487886 /* LRCModel.m */; };
+		CC6E99071C21499D0097EA3B /* BG_Img.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99061C21499D0097EA3B /* BG_Img.png */; };
+		CC6E99091C2150E30097EA3B /* BGlrc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99081C2150E30097EA3B /* BGlrc.jpg */; };
+		CC6E99511C2153A30097EA3B /*  yueku_banner_MV@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E990B1C2153A30097EA3B /*  yueku_banner_MV@2x.png */; };
+		CC6E99521C2153A30097EA3B /* add_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E990C1C2153A30097EA3B /* add_normal.png */; };
+		CC6E99531C2153A30097EA3B /* add_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E990D1C2153A30097EA3B /* add_normal@2x.png */; };
+		CC6E99541C2153A30097EA3B /* add_normal_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E990E1C2153A30097EA3B /* add_normal_bg.png */; };
+		CC6E99551C2153A30097EA3B /* AddNomal_Skin.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E990F1C2153A30097EA3B /* AddNomal_Skin.png */; };
+		CC6E99561C2153A30097EA3B /* album_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99101C2153A30097EA3B /* album_mask@2x.png */; };
+		CC6E99571C2153A30097EA3B /* alertlabel02.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99111C2153A30097EA3B /* alertlabel02.png */; };
+		CC6E99581C2153A30097EA3B /* alipay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99121C2153A30097EA3B /* alipay@2x.png */; };
+		CC6E99591C2153A30097EA3B /* all_favorite_btn_check_on_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99131C2153A30097EA3B /* all_favorite_btn_check_on_grey@2x.png */; };
+		CC6E995A1C2153A30097EA3B /* all_favorite_btn_check_on_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99141C2153A30097EA3B /* all_favorite_btn_check_on_pressed@2x.png */; };
+		CC6E995B1C2153A30097EA3B /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99151C2153A30097EA3B /* AppIcon57x57.png */; };
+		CC6E995C1C2153A30097EA3B /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99161C2153A30097EA3B /* AppIcon57x57@2x.png */; };
+		CC6E995D1C2153A30097EA3B /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99171C2153A30097EA3B /* AppIcon60x60@2x.png */; };
+		CC6E995E1C2153A30097EA3B /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99181C2153A30097EA3B /* arrow.png */; };
+		CC6E995F1C2153A30097EA3B /* arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99191C2153A30097EA3B /* arrow_down@2x.png */; };
+		CC6E99601C2153A30097EA3B /* arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991A1C2153A30097EA3B /* arrow_up@2x.png */; };
+		CC6E99611C2153A30097EA3B /* Audio_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991B1C2153A30097EA3B /* Audio_01@2x.png */; };
+		CC6E99621C2153A30097EA3B /* Audio_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991C1C2153A30097EA3B /* Audio_02@2x.png */; };
+		CC6E99631C2153A30097EA3B /* Audio_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991D1C2153A30097EA3B /* Audio_03@2x.png */; };
+		CC6E99641C2153A30097EA3B /* Audio_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991E1C2153A30097EA3B /* Audio_04@2x.png */; };
+		CC6E99651C2153A30097EA3B /* Audio_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E991F1C2153A30097EA3B /* Audio_05@2x.png */; };
+		CC6E99661C2153A30097EA3B /* Audio_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99201C2153A30097EA3B /* Audio_06@2x.png */; };
+		CC6E99671C2153A30097EA3B /* Audio_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99211C2153A30097EA3B /* Audio_07@2x.png */; };
+		CC6E99681C2153A30097EA3B /* Audio_08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99221C2153A30097EA3B /* Audio_08@2x.png */; };
+		CC6E99691C2153A30097EA3B /* audio_item_icon_local_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99231C2153A30097EA3B /* audio_item_icon_local_default@2x.png */; };
+		CC6E996A1C2153A30097EA3B /* audio_item_icon_nocopyright.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99241C2153A30097EA3B /* audio_item_icon_nocopyright.png */; };
+		CC6E996B1C2153A30097EA3B /* audio_item_icon_nokugou.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99251C2153A30097EA3B /* audio_item_icon_nokugou.png */; };
+		CC6E996C1C2153A30097EA3B /* audio_item_icon_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99261C2153A30097EA3B /* audio_item_icon_pressed@2x.png */; };
+		CC6E996D1C2153A30097EA3B /* audio_list_item_more_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99271C2153A30097EA3B /* audio_list_item_more_up@2x.png */; };
+		CC6E996E1C2153A30097EA3B /* audio_list_item_more_up_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99281C2153A30097EA3B /* audio_list_item_more_up_pressed@2x.png */; };
+		CC6E996F1C2153A30097EA3B /* bannerAlertBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99291C2153A30097EA3B /* bannerAlertBg@2x.png */; };
+		CC6E99701C2153A30097EA3B /* BeautyBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992A1C2153A30097EA3B /* BeautyBackgroundImage@2x.png */; };
+		CC6E99711C2153A30097EA3B /* BeautyDetailBackgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992B1C2153A30097EA3B /* BeautyDetailBackgroundImage@2x.png */; };
+		CC6E99721C2153A30097EA3B /* bg_disc_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992C1C2153A30097EA3B /* bg_disc_default@2x.png */; };
+		CC6E99731C2153A30097EA3B /* BG_Img.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992D1C2153A30097EA3B /* BG_Img.png */; };
+		CC6E99741C2153A30097EA3B /* bg_listen_header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992E1C2153A30097EA3B /* bg_listen_header@2x.jpg */; };
+		CC6E99751C2153A30097EA3B /* bg_pay_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E992F1C2153A30097EA3B /* bg_pay_loading@2x.png */; };
+		CC6E99761C2153A30097EA3B /* bg_personal_info.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99301C2153A30097EA3B /* bg_personal_info.png */; };
+		CC6E99771C2153A30097EA3B /* bg_personal_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99311C2153A30097EA3B /* bg_personal_info@2x.png */; };
+		CC6E99781C2153A30097EA3B /* bg_special_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99321C2153A30097EA3B /* bg_special_default@2x.png */; };
+		CC6E99791C2153A30097EA3B /* 写真-on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99331C2153A30097EA3B /* 写真-on.png */; };
+		CC6E997A1C2153A30097EA3B /* 写真.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99341C2153A30097EA3B /* 写真.png */; };
+		CC6E997B1C2153A30097EA3B /* 写真4.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99351C2153A30097EA3B /* 写真4.png */; };
+		CC6E997C1C2153A30097EA3B /* 写真4on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99361C2153A30097EA3B /* 写真4on.png */; };
+		CC6E997D1C2153A30097EA3B /* 分享.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99371C2153A30097EA3B /* 分享.png */; };
+		CC6E997E1C2153A30097EA3B /* 前进.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99381C2153A30097EA3B /* 前进.png */; };
+		CC6E997F1C2153A30097EA3B /* 半颗星.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99391C2153A30097EA3B /* 半颗星.png */; };
+		CC6E99801C2153A30097EA3B /* 单曲循环@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993A1C2153A30097EA3B /* 单曲循环@2x.png */; };
+		CC6E99811C2153A30097EA3B /* 后退.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993B1C2153A30097EA3B /* 后退.png */; };
+		CC6E99821C2153A30097EA3B /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993C1C2153A30097EA3B /* 播放.png */; };
+		CC6E99831C2153A30097EA3B /* 播放队列.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993D1C2153A30097EA3B /* 播放队列.png */; };
+		CC6E99841C2153A30097EA3B /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993E1C2153A30097EA3B /* 暂停.png */; };
+		CC6E99851C2153A30097EA3B /* 橙色星星.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E993F1C2153A30097EA3B /* 橙色星星.png */; };
+		CC6E99861C2153A30097EA3B /* 歌曲-on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99401C2153A30097EA3B /* 歌曲-on.png */; };
+		CC6E99871C2153A30097EA3B /* 歌曲.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99411C2153A30097EA3B /* 歌曲.png */; };
+		CC6E99881C2153A30097EA3B /* 歌曲4.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99421C2153A30097EA3B /* 歌曲4.png */; };
+		CC6E99891C2153A30097EA3B /* 歌曲4on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99431C2153A30097EA3B /* 歌曲4on.png */; };
+		CC6E998A1C2153A30097EA3B /* 歌词-on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99441C2153A30097EA3B /* 歌词-on.png */; };
+		CC6E998B1C2153A30097EA3B /* 歌词.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99451C2153A30097EA3B /* 歌词.png */; };
+		CC6E998C1C2153A30097EA3B /* 歌词4.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99461C2153A30097EA3B /* 歌词4.png */; };
+		CC6E998D1C2153A30097EA3B /* 歌词4on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99471C2153A30097EA3B /* 歌词4on.png */; };
+		CC6E998E1C2153A30097EA3B /* 第一层级bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99481C2153A30097EA3B /* 第一层级bg@2x.png */; };
+		CC6E998F1C2153A30097EA3B /* 第一层级bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99491C2153A30097EA3B /* 第一层级bg@3x.png */; };
+		CC6E99901C2153A30097EA3B /* 第一层级bg_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994A1C2153A30097EA3B /* 第一层级bg_6@2x.png */; };
+		CC6E99911C2153A30097EA3B /* 第一层级bg——B.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994B1C2153A30097EA3B /* 第一层级bg——B.png */; };
+		CC6E99921C2153A30097EA3B /* 随机播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994C1C2153A30097EA3B /* 随机播放@2x.png */; };
+		CC6E99931C2153A30097EA3B /* 音效4.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994D1C2153A30097EA3B /* 音效4.png */; };
+		CC6E99941C2153A30097EA3B /* 音效4on.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994E1C2153A30097EA3B /* 音效4on.png */; };
+		CC6E99951C2153A30097EA3B /* 音量@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E994F1C2153A30097EA3B /* 音量@2x.png */; };
+		CC6E99961C2153A30097EA3B /* 顺序播放@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC6E99501C2153A30097EA3B /* 顺序播放@2x.png */; };
+		CCB75C1F1C1B02AC00A1500F /* songplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB75C1D1C1B02AC00A1500F /* songplayViewController.m */; };
+		CCD6808C1C2109740016F96E /* K歌之王.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680811C2109740016F96E /* K歌之王.lrc */; };
+		CCD6808D1C2109740016F96E /* 一丝不挂.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680821C2109740016F96E /* 一丝不挂.lrc */; };
+		CCD6808E1C2109740016F96E /* 十年.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680831C2109740016F96E /* 十年.lrc */; };
+		CCD6808F1C2109740016F96E /* 好久不见.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680841C2109740016F96E /* 好久不见.lrc */; };
+		CCD680901C2109740016F96E /* 孤独患者.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680851C2109740016F96E /* 孤独患者.lrc */; };
+		CCD680911C2109740016F96E /* 打回原形.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680861C2109740016F96E /* 打回原形.lrc */; };
+		CCD680921C2109740016F96E /* 最佳损友.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680871C2109740016F96E /* 最佳损友.lrc */; };
+		CCD680931C2109740016F96E /* 浮夸.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680881C2109740016F96E /* 浮夸.lrc */; };
+		CCD680941C2109740016F96E /* 淘汰.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD680891C2109740016F96E /* 淘汰.lrc */; };
+		CCD680951C2109740016F96E /* 红玫瑰.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD6808A1C2109740016F96E /* 红玫瑰.lrc */; };
+		CCD680961C2109740016F96E /* 陪你度过漫长岁月.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CCD6808B1C2109740016F96E /* 陪你度过漫长岁月.lrc */; };
+		CCDA09F51C201D6500FF82D8 /* 陈奕迅 - 好久不见.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCDA09F41C201D6500FF82D8 /* 陈奕迅 - 好久不见.mp3 */; };
+		CCF7463C1C199E18002A87ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7463B1C199E18002A87ED /* main.m */; };
+		CCF7463F1C199E18002A87ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7463E1C199E18002A87ED /* AppDelegate.m */; };
+		CCF746421C199E18002A87ED /* listViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF746411C199E18002A87ED /* listViewController.m */; };
+		CCF746451C199E18002A87ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF746431C199E18002A87ED /* Main.storyboard */; };
+		CCF746471C199E18002A87ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF746461C199E18002A87ED /* Assets.xcassets */; };
+		CCF7464A1C199E18002A87ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF746481C199E18002A87ED /* LaunchScreen.storyboard */; };
+		CCF746551C199E18002A87ED /* EasonMusic8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF746541C199E18002A87ED /* EasonMusic8Tests.m */; };
+		CCF746601C199E18002A87ED /* EasonMusic8UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7465F1C199E18002A87ED /* EasonMusic8UITests.m */; };
+		CCF746AA1C199E44002A87ED /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7466E1C199E44002A87ED /* 1.png */; };
+		CCF746AB1C199E44002A87ED /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7466F1C199E44002A87ED /* 2.png */; };
+		CCF746AC1C199E44002A87ED /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746701C199E44002A87ED /* 3.png */; };
+		CCF746AD1C199E44002A87ED /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746711C199E44002A87ED /* 4.png */; };
+		CCF746AE1C199E44002A87ED /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746721C199E44002A87ED /* 5.png */; };
+		CCF746AF1C199E44002A87ED /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746731C199E44002A87ED /* 6.png */; };
+		CCF746B01C199E44002A87ED /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746741C199E44002A87ED /* 7.png */; };
+		CCF746B11C199E44002A87ED /* Eason5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746751C199E44002A87ED /* Eason5.jpg */; };
+		CCF746B21C199E44002A87ED /* Eason1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746761C199E44002A87ED /* Eason1.jpg */; };
+		CCF746B31C199E44002A87ED /* Eason2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746771C199E44002A87ED /* Eason2.jpg */; };
+		CCF746B41C199E44002A87ED /* Eason3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746781C199E44002A87ED /* Eason3.jpg */; };
+		CCF746B51C199E44002A87ED /* Eason4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746791C199E44002A87ED /* Eason4.jpg */; };
+		CCF746B61C199E44002A87ED /* EasonLife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467A1C199E44002A87ED /* EasonLife.jpg */; };
+		CCF746B71C199E44002A87ED /* EasonLife.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467B1C199E44002A87ED /* EasonLife.png */; };
+		CCF746B81C199E44002A87ED /* Eason专辑图1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467C1C199E44002A87ED /* Eason专辑图1.jpg */; };
+		CCF746B91C199E44002A87ED /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467D1C199E44002A87ED /* flake.png */; };
+		CCF746BA1C199E44002A87ED /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467E1C199E44002A87ED /* icon.png */; };
+		CCF746BB1C199E44002A87ED /* lauch_01.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7467F1C199E44002A87ED /* lauch_01.png */; };
+		CCF746BC1C199E44002A87ED /* lauch_02.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746801C199E44002A87ED /* lauch_02.png */; };
+		CCF746BD1C199E44002A87ED /* mt01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746811C199E44002A87ED /* mt01.jpg */; };
+		CCF746BE1C199E44002A87ED /* mt02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746821C199E44002A87ED /* mt02.jpg */; };
+		CCF746BF1C199E44002A87ED /* mt03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746831C199E44002A87ED /* mt03.jpg */; };
+		CCF746C01C199E44002A87ED /* mt04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746841C199E44002A87ED /* mt04.jpg */; };
+		CCF746C11C199E44002A87ED /* mt05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746851C199E44002A87ED /* mt05.jpg */; };
+		CCF746C21C199E44002A87ED /* mt06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746861C199E44002A87ED /* mt06.jpg */; };
+		CCF746C31C199E44002A87ED /* mt07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746871C199E44002A87ED /* mt07.jpg */; };
+		CCF746C41C199E44002A87ED /* mt08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746881C199E44002A87ED /* mt08.jpg */; };
+		CCF746C51C199E44002A87ED /* mt09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746891C199E44002A87ED /* mt09.jpg */; };
+		CCF746C61C199E44002A87ED /* musicimage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468A1C199E44002A87ED /* musicimage1.jpg */; };
+		CCF746C71C199E44002A87ED /* musicimage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468B1C199E44002A87ED /* musicimage2.jpg */; };
+		CCF746C81C199E44002A87ED /* musicimage3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468C1C199E44002A87ED /* musicimage3.jpg */; };
+		CCF746C91C199E44002A87ED /* musicimage4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468D1C199E44002A87ED /* musicimage4.jpg */; };
+		CCF746CA1C199E44002A87ED /* musicimage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468E1C199E44002A87ED /* musicimage5.jpg */; };
+		CCF746CB1C199E44002A87ED /* roll.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7468F1C199E44002A87ED /* roll.png */; };
+		CCF746CD1C199E44002A87ED /* 陈奕迅 - 一丝不挂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF746921C199E44002A87ED /* 陈奕迅 - 一丝不挂.mp3 */; };
+		CCF746D11C199E44002A87ED /* 陈奕迅 - 十年.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF746961C199E44002A87ED /* 陈奕迅 - 十年.mp3 */; };
+		CCF746D51C199E44002A87ED /* 陈奕迅 - 打回原形.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF7469A1C199E44002A87ED /* 陈奕迅 - 打回原形.mp3 */; };
+		CCF746D61C199E44002A87ED /* 陈奕迅 - 最佳损友.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF7469B1C199E44002A87ED /* 陈奕迅 - 最佳损友.mp3 */; };
+		CCF746D81C199E44002A87ED /* 陈奕迅 - 浮夸.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF7469D1C199E44002A87ED /* 陈奕迅 - 浮夸.mp3 */; };
+		CCF746D91C199E44002A87ED /* 陈奕迅 - 淘汰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF7469E1C199E44002A87ED /* 陈奕迅 - 淘汰.mp3 */; };
+		CCF746DA1C199E44002A87ED /* 陈奕迅 - 爱情转移.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF7469F1C199E44002A87ED /* 陈奕迅 - 爱情转移.mp3 */; };
+		CCF746DB1C199E44002A87ED /* 陈奕迅 - 红玫瑰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A01C199E44002A87ED /* 陈奕迅 - 红玫瑰.mp3 */; };
+		CCF746DD1C199E44002A87ED /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A21C199E44002A87ED /* voice.png */; };
+		CCF746DE1C199E44002A87ED /* 线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A31C199E44002A87ED /* 线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive */; };
+		CCF746DF1C199E44002A87ED /* 线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A41C199E44002A87ED /* 线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive */; };
+		CCF746E01C199E44002A87ED /* 边框1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A51C199E44002A87ED /* 边框1.png */; };
+		CCF746E11C199E44002A87ED /* 边框2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A61C199E44002A87ED /* 边框2.png */; };
+		CCF746E21C199E44002A87ED /* 边框3.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A71C199E44002A87ED /* 边框3.png */; };
+		CCF746E31C199E44002A87ED /* 边框4.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A81C199E44002A87ED /* 边框4.png */; };
+		CCF746E41C199E44002A87ED /* 音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = CCF746A91C199E44002A87ED /* 音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive */; };
+		CCF746EA1C199E7D002A87ED /* songlistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF746E61C199E7D002A87ED /* songlistTableViewCell.m */; };
+		CCF746EB1C199E7D002A87ED /* songlistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF746E71C199E7D002A87ED /* songlistTableViewCell.xib */; };
+		CCF746EC1C199E7D002A87ED /* songsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF746E91C199E7D002A87ED /* songsModel.m */; };
+		CCF746EE1C199F6C002A87ED /* EasonMusic.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCF746ED1C199F6C002A87ED /* EasonMusic.plist */; };
+		CCF746FC1C19A50B002A87ED /* 你给我听好歌词图片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746EF1C19A50B002A87ED /* 你给我听好歌词图片.jpg */; };
+		CCF746FD1C19A50B002A87ED /* 圣诞节.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F01C19A50B002A87ED /* 圣诞节.jpg */; };
+		CCF746FE1C19A50B002A87ED /* 稳稳的幸福.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F11C19A50B002A87ED /* 稳稳的幸福.jpg */; };
+		CCF746FF1C19A50B002A87ED /* 雪 女孩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F21C19A50B002A87ED /* 雪 女孩.jpg */; };
+		CCF747001C19A50B002A87ED /* 雪背景图漫画.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F31C19A50B002A87ED /* 雪背景图漫画.jpg */; };
+		CCF747011C19A50B002A87ED /* a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F41C19A50B002A87ED /* a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg */; };
+		CCF747021C19A50B002A87ED /* eason好久不见.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F51C19A50B002A87ED /* eason好久不见.jpg */; };
+		CCF747031C19A50B002A87ED /* eason红玫瑰.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F61C19A50B002A87ED /* eason红玫瑰.jpg */; };
+		CCF747041C19A50B002A87ED /* 不如不见.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F71C19A50B002A87ED /* 不如不见.jpg */; };
+		CCF747051C19A50B002A87ED /* eason夕阳无限好.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F81C19A50B002A87ED /* eason夕阳无限好.jpg */; };
+		CCF747061C19A50B002A87ED /* eason一丝不挂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCF746F91C19A50B002A87ED /* eason一丝不挂.jpg */; };
+		CCF747071C19A50B002A87ED /* Eason运气.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746FA1C19A50B002A87ED /* Eason运气.png */; };
+		CCF747081C19A50B002A87ED /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF746FB1C19A50B002A87ED /* flake.png */; };
+		CCF7470B1C19B056002A87ED /* resultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7470A1C19B056002A87ED /* resultTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF746511C199E18002A87ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF7462F1C199E18002A87ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF746361C199E18002A87ED;
+			remoteInfo = EasonMusic8;
+		};
+		CCF7465C1C199E18002A87ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF7462F1C199E18002A87ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF746361C199E18002A87ED;
+			remoteInfo = EasonMusic8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC084B2E1C1EEC5700A59BBD /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		CC084B2F1C1EEC5700A59BBD /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		CC084B321C1EED0000A59BBD /* EasonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasonScrollView.h; sourceTree = "<group>"; };
+		CC084B331C1EED0000A59BBD /* EasonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasonScrollView.m; sourceTree = "<group>"; };
+		CC1FC6201C1A6FAA00BABC15 /* 陈奕迅 - 陪你度过漫长岁月.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 陪你度过漫长岁月.mp3"; sourceTree = "<group>"; };
+		CC4CDCE31C1D8313008EA32B /* 陈奕迅 - K歌之王.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - K歌之王.mp3"; sourceTree = "<group>"; };
+		CC5F869F1C23D46600487886 /* process_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "process_thumb@2x.png"; sourceTree = "<group>"; };
+		CC5F86A11C23E6A600487886 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CC5F86A21C23E6C600487886 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CC5F86E41C243DD300487886 /* LRCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRCModel.h; sourceTree = "<group>"; };
+		CC5F86E51C243DD300487886 /* LRCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRCModel.m; sourceTree = "<group>"; };
+		CC6E99061C21499D0097EA3B /* BG_Img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG_Img.png; path = ../BG_Img.png; sourceTree = "<group>"; };
+		CC6E99081C2150E30097EA3B /* BGlrc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BGlrc.jpg; sourceTree = "<group>"; };
+		CC6E990B1C2153A30097EA3B /*  yueku_banner_MV@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " yueku_banner_MV@2x.png"; sourceTree = "<group>"; };
+		CC6E990C1C2153A30097EA3B /* add_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_normal.png; sourceTree = "<group>"; };
+		CC6E990D1C2153A30097EA3B /* add_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_normal@2x.png"; sourceTree = "<group>"; };
+		CC6E990E1C2153A30097EA3B /* add_normal_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_normal_bg.png; sourceTree = "<group>"; };
+		CC6E990F1C2153A30097EA3B /* AddNomal_Skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddNomal_Skin.png; sourceTree = "<group>"; };
+		CC6E99101C2153A30097EA3B /* album_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "album_mask@2x.png"; sourceTree = "<group>"; };
+		CC6E99111C2153A30097EA3B /* alertlabel02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertlabel02.png; sourceTree = "<group>"; };
+		CC6E99121C2153A30097EA3B /* alipay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alipay@2x.png"; sourceTree = "<group>"; };
+		CC6E99131C2153A30097EA3B /* all_favorite_btn_check_on_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_favorite_btn_check_on_grey@2x.png"; sourceTree = "<group>"; };
+		CC6E99141C2153A30097EA3B /* all_favorite_btn_check_on_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "all_favorite_btn_check_on_pressed@2x.png"; sourceTree = "<group>"; };
+		CC6E99151C2153A30097EA3B /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		CC6E99161C2153A30097EA3B /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		CC6E99171C2153A30097EA3B /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		CC6E99181C2153A30097EA3B /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		CC6E99191C2153A30097EA3B /* arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_down@2x.png"; sourceTree = "<group>"; };
+		CC6E991A1C2153A30097EA3B /* arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_up@2x.png"; sourceTree = "<group>"; };
+		CC6E991B1C2153A30097EA3B /* Audio_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_01@2x.png"; sourceTree = "<group>"; };
+		CC6E991C1C2153A30097EA3B /* Audio_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_02@2x.png"; sourceTree = "<group>"; };
+		CC6E991D1C2153A30097EA3B /* Audio_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_03@2x.png"; sourceTree = "<group>"; };
+		CC6E991E1C2153A30097EA3B /* Audio_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_04@2x.png"; sourceTree = "<group>"; };
+		CC6E991F1C2153A30097EA3B /* Audio_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_05@2x.png"; sourceTree = "<group>"; };
+		CC6E99201C2153A30097EA3B /* Audio_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_06@2x.png"; sourceTree = "<group>"; };
+		CC6E99211C2153A30097EA3B /* Audio_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_07@2x.png"; sourceTree = "<group>"; };
+		CC6E99221C2153A30097EA3B /* Audio_08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio_08@2x.png"; sourceTree = "<group>"; };
+		CC6E99231C2153A30097EA3B /* audio_item_icon_local_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_item_icon_local_default@2x.png"; sourceTree = "<group>"; };
+		CC6E99241C2153A30097EA3B /* audio_item_icon_nocopyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_item_icon_nocopyright.png; sourceTree = "<group>"; };
+		CC6E99251C2153A30097EA3B /* audio_item_icon_nokugou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_item_icon_nokugou.png; sourceTree = "<group>"; };
+		CC6E99261C2153A30097EA3B /* audio_item_icon_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_item_icon_pressed@2x.png"; sourceTree = "<group>"; };
+		CC6E99271C2153A30097EA3B /* audio_list_item_more_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_list_item_more_up@2x.png"; sourceTree = "<group>"; };
+		CC6E99281C2153A30097EA3B /* audio_list_item_more_up_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_list_item_more_up_pressed@2x.png"; sourceTree = "<group>"; };
+		CC6E99291C2153A30097EA3B /* bannerAlertBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerAlertBg@2x.png"; sourceTree = "<group>"; };
+		CC6E992A1C2153A30097EA3B /* BeautyBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeautyBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		CC6E992B1C2153A30097EA3B /* BeautyDetailBackgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeautyDetailBackgroundImage@2x.png"; sourceTree = "<group>"; };
+		CC6E992C1C2153A30097EA3B /* bg_disc_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_disc_default@2x.png"; sourceTree = "<group>"; };
+		CC6E992D1C2153A30097EA3B /* BG_Img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG_Img.png; sourceTree = "<group>"; };
+		CC6E992E1C2153A30097EA3B /* bg_listen_header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_listen_header@2x.jpg"; sourceTree = "<group>"; };
+		CC6E992F1C2153A30097EA3B /* bg_pay_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_pay_loading@2x.png"; sourceTree = "<group>"; };
+		CC6E99301C2153A30097EA3B /* bg_personal_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_personal_info.png; sourceTree = "<group>"; };
+		CC6E99311C2153A30097EA3B /* bg_personal_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_personal_info@2x.png"; sourceTree = "<group>"; };
+		CC6E99321C2153A30097EA3B /* bg_special_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_special_default@2x.png"; sourceTree = "<group>"; };
+		CC6E99331C2153A30097EA3B /* 写真-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真-on.png"; sourceTree = "<group>"; };
+		CC6E99341C2153A30097EA3B /* 写真.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真.png"; sourceTree = "<group>"; };
+		CC6E99351C2153A30097EA3B /* 写真4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真4.png"; sourceTree = "<group>"; };
+		CC6E99361C2153A30097EA3B /* 写真4on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "写真4on.png"; sourceTree = "<group>"; };
+		CC6E99371C2153A30097EA3B /* 分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享.png"; sourceTree = "<group>"; };
+		CC6E99381C2153A30097EA3B /* 前进.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前进.png"; sourceTree = "<group>"; };
+		CC6E99391C2153A30097EA3B /* 半颗星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "半颗星.png"; sourceTree = "<group>"; };
+		CC6E993A1C2153A30097EA3B /* 单曲循环@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单曲循环@2x.png"; sourceTree = "<group>"; };
+		CC6E993B1C2153A30097EA3B /* 后退.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "后退.png"; sourceTree = "<group>"; };
+		CC6E993C1C2153A30097EA3B /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		CC6E993D1C2153A30097EA3B /* 播放队列.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放队列.png"; sourceTree = "<group>"; };
+		CC6E993E1C2153A30097EA3B /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		CC6E993F1C2153A30097EA3B /* 橙色星星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橙色星星.png"; sourceTree = "<group>"; };
+		CC6E99401C2153A30097EA3B /* 歌曲-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌曲-on.png"; sourceTree = "<group>"; };
+		CC6E99411C2153A30097EA3B /* 歌曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌曲.png"; sourceTree = "<group>"; };
+		CC6E99421C2153A30097EA3B /* 歌曲4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌曲4.png"; sourceTree = "<group>"; };
+		CC6E99431C2153A30097EA3B /* 歌曲4on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌曲4on.png"; sourceTree = "<group>"; };
+		CC6E99441C2153A30097EA3B /* 歌词-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌词-on.png"; sourceTree = "<group>"; };
+		CC6E99451C2153A30097EA3B /* 歌词.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌词.png"; sourceTree = "<group>"; };
+		CC6E99461C2153A30097EA3B /* 歌词4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌词4.png"; sourceTree = "<group>"; };
+		CC6E99471C2153A30097EA3B /* 歌词4on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌词4on.png"; sourceTree = "<group>"; };
+		CC6E99481C2153A30097EA3B /* 第一层级bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一层级bg@2x.png"; sourceTree = "<group>"; };
+		CC6E99491C2153A30097EA3B /* 第一层级bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一层级bg@3x.png"; sourceTree = "<group>"; };
+		CC6E994A1C2153A30097EA3B /* 第一层级bg_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一层级bg_6@2x.png"; sourceTree = "<group>"; };
+		CC6E994B1C2153A30097EA3B /* 第一层级bg——B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第一层级bg——B.png"; sourceTree = "<group>"; };
+		CC6E994C1C2153A30097EA3B /* 随机播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "随机播放@2x.png"; sourceTree = "<group>"; };
+		CC6E994D1C2153A30097EA3B /* 音效4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音效4.png"; sourceTree = "<group>"; };
+		CC6E994E1C2153A30097EA3B /* 音效4on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音效4on.png"; sourceTree = "<group>"; };
+		CC6E994F1C2153A30097EA3B /* 音量@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量@2x.png"; sourceTree = "<group>"; };
+		CC6E99501C2153A30097EA3B /* 顺序播放@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "顺序播放@2x.png"; sourceTree = "<group>"; };
+		CCB75C1C1C1B02AC00A1500F /* songplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songplayViewController.h; sourceTree = "<group>"; };
+		CCB75C1D1C1B02AC00A1500F /* songplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songplayViewController.m; sourceTree = "<group>"; };
+		CCD680811C2109740016F96E /* K歌之王.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "K歌之王.lrc"; sourceTree = "<group>"; };
+		CCD680821C2109740016F96E /* 一丝不挂.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "一丝不挂.lrc"; sourceTree = "<group>"; };
+		CCD680831C2109740016F96E /* 十年.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "十年.lrc"; sourceTree = "<group>"; };
+		CCD680841C2109740016F96E /* 好久不见.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "好久不见.lrc"; sourceTree = "<group>"; };
+		CCD680851C2109740016F96E /* 孤独患者.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "孤独患者.lrc"; sourceTree = "<group>"; };
+		CCD680861C2109740016F96E /* 打回原形.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "打回原形.lrc"; sourceTree = "<group>"; };
+		CCD680871C2109740016F96E /* 最佳损友.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最佳损友.lrc"; sourceTree = "<group>"; };
+		CCD680881C2109740016F96E /* 浮夸.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "浮夸.lrc"; sourceTree = "<group>"; };
+		CCD680891C2109740016F96E /* 淘汰.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "淘汰.lrc"; sourceTree = "<group>"; };
+		CCD6808A1C2109740016F96E /* 红玫瑰.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红玫瑰.lrc"; sourceTree = "<group>"; };
+		CCD6808B1C2109740016F96E /* 陪你度过漫长岁月.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "陪你度过漫长岁月.lrc"; sourceTree = "<group>"; };
+		CCDA09F41C201D6500FF82D8 /* 陈奕迅 - 好久不见.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 好久不见.mp3"; sourceTree = "<group>"; };
+		CCF746371C199E18002A87ED /* EasonMusic8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasonMusic8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF7463B1C199E18002A87ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF7463D1C199E18002A87ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCF7463E1C199E18002A87ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCF746401C199E18002A87ED /* listViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listViewController.h; sourceTree = "<group>"; };
+		CCF746411C199E18002A87ED /* listViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listViewController.m; sourceTree = "<group>"; };
+		CCF746441C199E18002A87ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF746461C199E18002A87ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF746491C199E18002A87ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF7464B1C199E18002A87ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF746501C199E18002A87ED /* EasonMusic8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasonMusic8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF746541C199E18002A87ED /* EasonMusic8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasonMusic8Tests.m; sourceTree = "<group>"; };
+		CCF746561C199E18002A87ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF7465B1C199E18002A87ED /* EasonMusic8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasonMusic8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF7465F1C199E18002A87ED /* EasonMusic8UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasonMusic8UITests.m; sourceTree = "<group>"; };
+		CCF746611C199E18002A87ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF7466E1C199E44002A87ED /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		CCF7466F1C199E44002A87ED /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		CCF746701C199E44002A87ED /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CCF746711C199E44002A87ED /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CCF746721C199E44002A87ED /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		CCF746731C199E44002A87ED /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		CCF746741C199E44002A87ED /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		CCF746751C199E44002A87ED /* Eason5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason5.jpg; sourceTree = "<group>"; };
+		CCF746761C199E44002A87ED /* Eason1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason1.jpg; sourceTree = "<group>"; };
+		CCF746771C199E44002A87ED /* Eason2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason2.jpg; sourceTree = "<group>"; };
+		CCF746781C199E44002A87ED /* Eason3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason3.jpg; sourceTree = "<group>"; };
+		CCF746791C199E44002A87ED /* Eason4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason4.jpg; sourceTree = "<group>"; };
+		CCF7467A1C199E44002A87ED /* EasonLife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EasonLife.jpg; sourceTree = "<group>"; };
+		CCF7467B1C199E44002A87ED /* EasonLife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EasonLife.png; sourceTree = "<group>"; };
+		CCF7467C1C199E44002A87ED /* Eason专辑图1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eason专辑图1.jpg"; sourceTree = "<group>"; };
+		CCF7467D1C199E44002A87ED /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
+		CCF7467E1C199E44002A87ED /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CCF7467F1C199E44002A87ED /* lauch_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch_01.png; sourceTree = "<group>"; };
+		CCF746801C199E44002A87ED /* lauch_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch_02.png; sourceTree = "<group>"; };
+		CCF746811C199E44002A87ED /* mt01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt01.jpg; sourceTree = "<group>"; };
+		CCF746821C199E44002A87ED /* mt02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt02.jpg; sourceTree = "<group>"; };
+		CCF746831C199E44002A87ED /* mt03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt03.jpg; sourceTree = "<group>"; };
+		CCF746841C199E44002A87ED /* mt04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt04.jpg; sourceTree = "<group>"; };
+		CCF746851C199E44002A87ED /* mt05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt05.jpg; sourceTree = "<group>"; };
+		CCF746861C199E44002A87ED /* mt06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt06.jpg; sourceTree = "<group>"; };
+		CCF746871C199E44002A87ED /* mt07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt07.jpg; sourceTree = "<group>"; };
+		CCF746881C199E44002A87ED /* mt08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt08.jpg; sourceTree = "<group>"; };
+		CCF746891C199E44002A87ED /* mt09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mt09.jpg; sourceTree = "<group>"; };
+		CCF7468A1C199E44002A87ED /* musicimage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicimage1.jpg; sourceTree = "<group>"; };
+		CCF7468B1C199E44002A87ED /* musicimage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicimage2.jpg; sourceTree = "<group>"; };
+		CCF7468C1C199E44002A87ED /* musicimage3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicimage3.jpg; sourceTree = "<group>"; };
+		CCF7468D1C199E44002A87ED /* musicimage4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicimage4.jpg; sourceTree = "<group>"; };
+		CCF7468E1C199E44002A87ED /* musicimage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = musicimage5.jpg; sourceTree = "<group>"; };
+		CCF7468F1C199E44002A87ED /* roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roll.png; sourceTree = "<group>"; };
+		CCF746921C199E44002A87ED /* 陈奕迅 - 一丝不挂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 一丝不挂.mp3"; sourceTree = "<group>"; };
+		CCF746961C199E44002A87ED /* 陈奕迅 - 十年.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 十年.mp3"; sourceTree = "<group>"; };
+		CCF7469A1C199E44002A87ED /* 陈奕迅 - 打回原形.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 打回原形.mp3"; sourceTree = "<group>"; };
+		CCF7469B1C199E44002A87ED /* 陈奕迅 - 最佳损友.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 最佳损友.mp3"; sourceTree = "<group>"; };
+		CCF7469D1C199E44002A87ED /* 陈奕迅 - 浮夸.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 浮夸.mp3"; sourceTree = "<group>"; };
+		CCF7469E1C199E44002A87ED /* 陈奕迅 - 淘汰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 淘汰.mp3"; sourceTree = "<group>"; };
+		CCF7469F1C199E44002A87ED /* 陈奕迅 - 爱情转移.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 爱情转移.mp3"; sourceTree = "<group>"; };
+		CCF746A01C199E44002A87ED /* 陈奕迅 - 红玫瑰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅 - 红玫瑰.mp3"; sourceTree = "<group>"; };
+		CCF746A21C199E44002A87ED /* voice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice.png; sourceTree = "<group>"; };
+		CCF746A31C199E44002A87ED /* 线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive"; sourceTree = "<group>"; };
+		CCF746A41C199E44002A87ED /* 线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive"; sourceTree = "<group>"; };
+		CCF746A51C199E44002A87ED /* 边框1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "边框1.png"; sourceTree = "<group>"; };
+		CCF746A61C199E44002A87ED /* 边框2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "边框2.png"; sourceTree = "<group>"; };
+		CCF746A71C199E44002A87ED /* 边框3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "边框3.png"; sourceTree = "<group>"; };
+		CCF746A81C199E44002A87ED /* 边框4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "边框4.png"; sourceTree = "<group>"; };
+		CCF746A91C199E44002A87ED /* 音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive"; sourceTree = "<group>"; };
+		CCF746E51C199E7D002A87ED /* songlistTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songlistTableViewCell.h; sourceTree = "<group>"; };
+		CCF746E61C199E7D002A87ED /* songlistTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songlistTableViewCell.m; sourceTree = "<group>"; };
+		CCF746E71C199E7D002A87ED /* songlistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = songlistTableViewCell.xib; sourceTree = "<group>"; };
+		CCF746E81C199E7D002A87ED /* songsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songsModel.h; sourceTree = "<group>"; };
+		CCF746E91C199E7D002A87ED /* songsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songsModel.m; sourceTree = "<group>"; };
+		CCF746ED1C199F6C002A87ED /* EasonMusic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EasonMusic.plist; sourceTree = "<group>"; };
+		CCF746EF1C19A50B002A87ED /* 你给我听好歌词图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "你给我听好歌词图片.jpg"; path = "../你给我听好歌词图片.jpg"; sourceTree = "<group>"; };
+		CCF746F01C19A50B002A87ED /* 圣诞节.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "圣诞节.jpg"; path = "../圣诞节.jpg"; sourceTree = "<group>"; };
+		CCF746F11C19A50B002A87ED /* 稳稳的幸福.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "稳稳的幸福.jpg"; path = "../稳稳的幸福.jpg"; sourceTree = "<group>"; };
+		CCF746F21C19A50B002A87ED /* 雪 女孩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "雪 女孩.jpg"; path = "../雪 女孩.jpg"; sourceTree = "<group>"; };
+		CCF746F31C19A50B002A87ED /* 雪背景图漫画.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "雪背景图漫画.jpg"; path = "../雪背景图漫画.jpg"; sourceTree = "<group>"; };
+		CCF746F41C19A50B002A87ED /* a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg; path = ../a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg; sourceTree = "<group>"; };
+		CCF746F51C19A50B002A87ED /* eason好久不见.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eason好久不见.jpg"; path = "../eason好久不见.jpg"; sourceTree = "<group>"; };
+		CCF746F61C19A50B002A87ED /* eason红玫瑰.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eason红玫瑰.jpg"; path = "../eason红玫瑰.jpg"; sourceTree = "<group>"; };
+		CCF746F71C19A50B002A87ED /* 不如不见.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "不如不见.jpg"; path = "../不如不见.jpg"; sourceTree = "<group>"; };
+		CCF746F81C19A50B002A87ED /* eason夕阳无限好.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eason夕阳无限好.jpg"; path = "../eason夕阳无限好.jpg"; sourceTree = "<group>"; };
+		CCF746F91C19A50B002A87ED /* eason一丝不挂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eason一丝不挂.jpg"; path = "../eason一丝不挂.jpg"; sourceTree = "<group>"; };
+		CCF746FA1C19A50B002A87ED /* Eason运气.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Eason运气.png"; path = "../Eason运气.png"; sourceTree = "<group>"; };
+		CCF746FB1C19A50B002A87ED /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flake.png; path = ../flake.png; sourceTree = "<group>"; };
+		CCF747091C19B056002A87ED /* resultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultTableViewController.h; sourceTree = "<group>"; };
+		CCF7470A1C19B056002A87ED /* resultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF746341C199E18002A87ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7464D1C199E18002A87ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF746581C199E18002A87ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC084B311C1EEC5D00A59BBD /* 美图界面 */ = {
+			isa = PBXGroup;
+			children = (
+				CC084B2E1C1EEC5700A59BBD /* AlbumViewController.h */,
+				CC084B2F1C1EEC5700A59BBD /* AlbumViewController.m */,
+			);
+			name = "美图界面";
+			sourceTree = "<group>";
+		};
+		CC5F86A41C23E6D000487886 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F86A11C23E6A600487886 /* UIView+Extension.h */,
+				CC5F86A21C23E6C600487886 /* UIView+Extension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CC6E990A1C2153A20097EA3B /* 各种图标music */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F869F1C23D46600487886 /* process_thumb@2x.png */,
+				CC6E990B1C2153A30097EA3B /*  yueku_banner_MV@2x.png */,
+				CC6E990C1C2153A30097EA3B /* add_normal.png */,
+				CC6E990D1C2153A30097EA3B /* add_normal@2x.png */,
+				CC6E990E1C2153A30097EA3B /* add_normal_bg.png */,
+				CC6E990F1C2153A30097EA3B /* AddNomal_Skin.png */,
+				CC6E99101C2153A30097EA3B /* album_mask@2x.png */,
+				CC6E99111C2153A30097EA3B /* alertlabel02.png */,
+				CC6E99121C2153A30097EA3B /* alipay@2x.png */,
+				CC6E99131C2153A30097EA3B /* all_favorite_btn_check_on_grey@2x.png */,
+				CC6E99141C2153A30097EA3B /* all_favorite_btn_check_on_pressed@2x.png */,
+				CC6E99151C2153A30097EA3B /* AppIcon57x57.png */,
+				CC6E99161C2153A30097EA3B /* AppIcon57x57@2x.png */,
+				CC6E99171C2153A30097EA3B /* AppIcon60x60@2x.png */,
+				CC6E99181C2153A30097EA3B /* arrow.png */,
+				CC6E99191C2153A30097EA3B /* arrow_down@2x.png */,
+				CC6E991A1C2153A30097EA3B /* arrow_up@2x.png */,
+				CC6E991B1C2153A30097EA3B /* Audio_01@2x.png */,
+				CC6E991C1C2153A30097EA3B /* Audio_02@2x.png */,
+				CC6E991D1C2153A30097EA3B /* Audio_03@2x.png */,
+				CC6E991E1C2153A30097EA3B /* Audio_04@2x.png */,
+				CC6E991F1C2153A30097EA3B /* Audio_05@2x.png */,
+				CC6E99201C2153A30097EA3B /* Audio_06@2x.png */,
+				CC6E99211C2153A30097EA3B /* Audio_07@2x.png */,
+				CC6E99221C2153A30097EA3B /* Audio_08@2x.png */,
+				CC6E99231C2153A30097EA3B /* audio_item_icon_local_default@2x.png */,
+				CC6E99241C2153A30097EA3B /* audio_item_icon_nocopyright.png */,
+				CC6E99251C2153A30097EA3B /* audio_item_icon_nokugou.png */,
+				CC6E99261C2153A30097EA3B /* audio_item_icon_pressed@2x.png */,
+				CC6E99271C2153A30097EA3B /* audio_list_item_more_up@2x.png */,
+				CC6E99281C2153A30097EA3B /* audio_list_item_more_up_pressed@2x.png */,
+				CC6E99291C2153A30097EA3B /* bannerAlertBg@2x.png */,
+				CC6E992A1C2153A30097EA3B /* BeautyBackgroundImage@2x.png */,
+				CC6E992B1C2153A30097EA3B /* BeautyDetailBackgroundImage@2x.png */,
+				CC6E992C1C2153A30097EA3B /* bg_disc_default@2x.png */,
+				CC6E992D1C2153A30097EA3B /* BG_Img.png */,
+				CC6E992E1C2153A30097EA3B /* bg_listen_header@2x.jpg */,
+				CC6E992F1C2153A30097EA3B /* bg_pay_loading@2x.png */,
+				CC6E99301C2153A30097EA3B /* bg_personal_info.png */,
+				CC6E99311C2153A30097EA3B /* bg_personal_info@2x.png */,
+				CC6E99321C2153A30097EA3B /* bg_special_default@2x.png */,
+				CC6E99331C2153A30097EA3B /* 写真-on.png */,
+				CC6E99341C2153A30097EA3B /* 写真.png */,
+				CC6E99351C2153A30097EA3B /* 写真4.png */,
+				CC6E99361C2153A30097EA3B /* 写真4on.png */,
+				CC6E99371C2153A30097EA3B /* 分享.png */,
+				CC6E99381C2153A30097EA3B /* 前进.png */,
+				CC6E99391C2153A30097EA3B /* 半颗星.png */,
+				CC6E993A1C2153A30097EA3B /* 单曲循环@2x.png */,
+				CC6E993B1C2153A30097EA3B /* 后退.png */,
+				CC6E993C1C2153A30097EA3B /* 播放.png */,
+				CC6E993D1C2153A30097EA3B /* 播放队列.png */,
+				CC6E993E1C2153A30097EA3B /* 暂停.png */,
+				CC6E993F1C2153A30097EA3B /* 橙色星星.png */,
+				CC6E99401C2153A30097EA3B /* 歌曲-on.png */,
+				CC6E99411C2153A30097EA3B /* 歌曲.png */,
+				CC6E99421C2153A30097EA3B /* 歌曲4.png */,
+				CC6E99431C2153A30097EA3B /* 歌曲4on.png */,
+				CC6E99441C2153A30097EA3B /* 歌词-on.png */,
+				CC6E99451C2153A30097EA3B /* 歌词.png */,
+				CC6E99461C2153A30097EA3B /* 歌词4.png */,
+				CC6E99471C2153A30097EA3B /* 歌词4on.png */,
+				CC6E99481C2153A30097EA3B /* 第一层级bg@2x.png */,
+				CC6E99491C2153A30097EA3B /* 第一层级bg@3x.png */,
+				CC6E994A1C2153A30097EA3B /* 第一层级bg_6@2x.png */,
+				CC6E994B1C2153A30097EA3B /* 第一层级bg——B.png */,
+				CC6E994C1C2153A30097EA3B /* 随机播放@2x.png */,
+				CC6E994D1C2153A30097EA3B /* 音效4.png */,
+				CC6E994E1C2153A30097EA3B /* 音效4on.png */,
+				CC6E994F1C2153A30097EA3B /* 音量@2x.png */,
+				CC6E99501C2153A30097EA3B /* 顺序播放@2x.png */,
+			);
+			name = "各种图标music";
+			path = "../各种图标music";
+			sourceTree = "<group>";
+		};
+		CC92408F1C1BDC0200384EA2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E99081C2150E30097EA3B /* BGlrc.jpg */,
+				CC6E99061C21499D0097EA3B /* BG_Img.png */,
+				CCF746A21C199E44002A87ED /* voice.png */,
+				CCF746A61C199E44002A87ED /* 边框2.png */,
+				CCF746A71C199E44002A87ED /* 边框3.png */,
+				CCF746A81C199E44002A87ED /* 边框4.png */,
+				CCF746A51C199E44002A87ED /* 边框1.png */,
+				CCF7466E1C199E44002A87ED /* 1.png */,
+				CCF7466F1C199E44002A87ED /* 2.png */,
+				CCF746701C199E44002A87ED /* 3.png */,
+				CCF746711C199E44002A87ED /* 4.png */,
+				CCF746721C199E44002A87ED /* 5.png */,
+				CCF746731C199E44002A87ED /* 6.png */,
+				CCF746741C199E44002A87ED /* 7.png */,
+				CCF746751C199E44002A87ED /* Eason5.jpg */,
+				CCF746761C199E44002A87ED /* Eason1.jpg */,
+				CCF746771C199E44002A87ED /* Eason2.jpg */,
+				CCF746781C199E44002A87ED /* Eason3.jpg */,
+				CCF746791C199E44002A87ED /* Eason4.jpg */,
+				CCF7467A1C199E44002A87ED /* EasonLife.jpg */,
+				CCF7467B1C199E44002A87ED /* EasonLife.png */,
+				CCF7467C1C199E44002A87ED /* Eason专辑图1.jpg */,
+				CCF746EF1C19A50B002A87ED /* 你给我听好歌词图片.jpg */,
+				CCF746F01C19A50B002A87ED /* 圣诞节.jpg */,
+				CCF746F11C19A50B002A87ED /* 稳稳的幸福.jpg */,
+				CCF746F21C19A50B002A87ED /* 雪 女孩.jpg */,
+				CCF746F31C19A50B002A87ED /* 雪背景图漫画.jpg */,
+				CCF746F41C19A50B002A87ED /* a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg */,
+				CCF746F51C19A50B002A87ED /* eason好久不见.jpg */,
+				CCF746F61C19A50B002A87ED /* eason红玫瑰.jpg */,
+				CCF746F71C19A50B002A87ED /* 不如不见.jpg */,
+				CCF746F81C19A50B002A87ED /* eason夕阳无限好.jpg */,
+				CCF746F91C19A50B002A87ED /* eason一丝不挂.jpg */,
+				CCF746FA1C19A50B002A87ED /* Eason运气.png */,
+				CCF746FB1C19A50B002A87ED /* flake.png */,
+				CCF7467D1C199E44002A87ED /* flake.png */,
+				CCF7467E1C199E44002A87ED /* icon.png */,
+				CCF7467F1C199E44002A87ED /* lauch_01.png */,
+				CCF746801C199E44002A87ED /* lauch_02.png */,
+				CCF746811C199E44002A87ED /* mt01.jpg */,
+				CCF746821C199E44002A87ED /* mt02.jpg */,
+				CCF746831C199E44002A87ED /* mt03.jpg */,
+				CCF746841C199E44002A87ED /* mt04.jpg */,
+				CCF746851C199E44002A87ED /* mt05.jpg */,
+				CCF746861C199E44002A87ED /* mt06.jpg */,
+				CCF746871C199E44002A87ED /* mt07.jpg */,
+				CCF746881C199E44002A87ED /* mt08.jpg */,
+				CCF746891C199E44002A87ED /* mt09.jpg */,
+				CCF7468A1C199E44002A87ED /* musicimage1.jpg */,
+				CCF7468B1C199E44002A87ED /* musicimage2.jpg */,
+				CCF7468C1C199E44002A87ED /* musicimage3.jpg */,
+				CCF7468D1C199E44002A87ED /* musicimage4.jpg */,
+				CCF7468E1C199E44002A87ED /* musicimage5.jpg */,
+				CCF7468F1C199E44002A87ED /* roll.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CCB75C191C1B020900A1500F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCB75C211C1B02B600A1500F /* 播放界面 */,
+				CCB75C221C1B02CA00A1500F /* 列表界面 */,
+				CC084B311C1EEC5D00A59BBD /* 美图界面 */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CCB75C1A1C1B021700A1500F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746431C199E18002A87ED /* Main.storyboard */,
+				CCF746E51C199E7D002A87ED /* songlistTableViewCell.h */,
+				CCF746E61C199E7D002A87ED /* songlistTableViewCell.m */,
+				CCF746E71C199E7D002A87ED /* songlistTableViewCell.xib */,
+				CC084B321C1EED0000A59BBD /* EasonScrollView.h */,
+				CC084B331C1EED0000A59BBD /* EasonScrollView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CCB75C1B1C1B022400A1500F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746E81C199E7D002A87ED /* songsModel.h */,
+				CCF746E91C199E7D002A87ED /* songsModel.m */,
+				CC5F86E41C243DD300487886 /* LRCModel.h */,
+				CC5F86E51C243DD300487886 /* LRCModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CCB75C211C1B02B600A1500F /* 播放界面 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB75C1C1C1B02AC00A1500F /* songplayViewController.h */,
+				CCB75C1D1C1B02AC00A1500F /* songplayViewController.m */,
+			);
+			name = "播放界面";
+			sourceTree = "<group>";
+		};
+		CCB75C221C1B02CA00A1500F /* 列表界面 */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746401C199E18002A87ED /* listViewController.h */,
+				CCF746411C199E18002A87ED /* listViewController.m */,
+				CCF747091C19B056002A87ED /* resultTableViewController.h */,
+				CCF7470A1C19B056002A87ED /* resultTableViewController.m */,
+			);
+			name = "列表界面";
+			sourceTree = "<group>";
+		};
+		CCD680801C2109740016F96E /* LRC */ = {
+			isa = PBXGroup;
+			children = (
+				CCD680811C2109740016F96E /* K歌之王.lrc */,
+				CCD680821C2109740016F96E /* 一丝不挂.lrc */,
+				CCD680831C2109740016F96E /* 十年.lrc */,
+				CCD680841C2109740016F96E /* 好久不见.lrc */,
+				CCD680851C2109740016F96E /* 孤独患者.lrc */,
+				CCD680861C2109740016F96E /* 打回原形.lrc */,
+				CCD680871C2109740016F96E /* 最佳损友.lrc */,
+				CCD680881C2109740016F96E /* 浮夸.lrc */,
+				CCD680891C2109740016F96E /* 淘汰.lrc */,
+				CCD6808A1C2109740016F96E /* 红玫瑰.lrc */,
+				CCD6808B1C2109740016F96E /* 陪你度过漫长岁月.lrc */,
+			);
+			path = LRC;
+			sourceTree = "<group>";
+		};
+		CCF7462E1C199E18002A87ED = {
+			isa = PBXGroup;
+			children = (
+				CCF746391C199E18002A87ED /* EasonMusic8 */,
+				CCF746531C199E18002A87ED /* EasonMusic8Tests */,
+				CCF7465E1C199E18002A87ED /* EasonMusic8UITests */,
+				CCF746381C199E18002A87ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF746381C199E18002A87ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746371C199E18002A87ED /* EasonMusic8.app */,
+				CCF746501C199E18002A87ED /* EasonMusic8Tests.xctest */,
+				CCF7465B1C199E18002A87ED /* EasonMusic8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF746391C199E18002A87ED /* EasonMusic8 */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F86A41C23E6D000487886 /* Category */,
+				CCB75C1B1C1B022400A1500F /* Models */,
+				CCB75C1A1C1B021700A1500F /* Views */,
+				CCB75C191C1B020900A1500F /* Controllers */,
+				CCF7463A1C199E18002A87ED /* Supporting Files */,
+			);
+			path = EasonMusic8;
+			sourceTree = "<group>";
+		};
+		CCF7463A1C199E18002A87ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746ED1C199F6C002A87ED /* EasonMusic.plist */,
+				CCF7466D1C199E44002A87ED /* 素材 */,
+				CCF7463B1C199E18002A87ED /* main.m */,
+				CCF7464B1C199E18002A87ED /* Info.plist */,
+				CCF7463D1C199E18002A87ED /* AppDelegate.h */,
+				CCF7463E1C199E18002A87ED /* AppDelegate.m */,
+				CCF746461C199E18002A87ED /* Assets.xcassets */,
+				CCF746481C199E18002A87ED /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF746531C199E18002A87ED /* EasonMusic8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF746541C199E18002A87ED /* EasonMusic8Tests.m */,
+				CCF746561C199E18002A87ED /* Info.plist */,
+			);
+			path = EasonMusic8Tests;
+			sourceTree = "<group>";
+		};
+		CCF7465E1C199E18002A87ED /* EasonMusic8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF7465F1C199E18002A87ED /* EasonMusic8UITests.m */,
+				CCF746611C199E18002A87ED /* Info.plist */,
+			);
+			path = EasonMusic8UITests;
+			sourceTree = "<group>";
+		};
+		CCF7466D1C199E44002A87ED /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CC6E990A1C2153A20097EA3B /* 各种图标music */,
+				CCD680801C2109740016F96E /* LRC */,
+				CC92408F1C1BDC0200384EA2 /* images */,
+				CCF746901C199E44002A87ED /* Resource */,
+				CCF746A31C199E44002A87ED /* 线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive */,
+				CCF746A41C199E44002A87ED /* 线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive */,
+				CCF746A91C199E44002A87ED /* 音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive */,
+			);
+			path = "素材";
+			sourceTree = "<group>";
+		};
+		CCF746901C199E44002A87ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA09F41C201D6500FF82D8 /* 陈奕迅 - 好久不见.mp3 */,
+				CC1FC6201C1A6FAA00BABC15 /* 陈奕迅 - 陪你度过漫长岁月.mp3 */,
+				CCF746921C199E44002A87ED /* 陈奕迅 - 一丝不挂.mp3 */,
+				CCF746961C199E44002A87ED /* 陈奕迅 - 十年.mp3 */,
+				CC4CDCE31C1D8313008EA32B /* 陈奕迅 - K歌之王.mp3 */,
+				CCF7469A1C199E44002A87ED /* 陈奕迅 - 打回原形.mp3 */,
+				CCF7469B1C199E44002A87ED /* 陈奕迅 - 最佳损友.mp3 */,
+				CCF7469D1C199E44002A87ED /* 陈奕迅 - 浮夸.mp3 */,
+				CCF7469E1C199E44002A87ED /* 陈奕迅 - 淘汰.mp3 */,
+				CCF7469F1C199E44002A87ED /* 陈奕迅 - 爱情转移.mp3 */,
+				CCF746A01C199E44002A87ED /* 陈奕迅 - 红玫瑰.mp3 */,
+			);
+			name = Resource;
+			path = songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF746361C199E18002A87ED /* EasonMusic8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF746641C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8" */;
+			buildPhases = (
+				CCF746331C199E18002A87ED /* Sources */,
+				CCF746341C199E18002A87ED /* Frameworks */,
+				CCF746351C199E18002A87ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasonMusic8;
+			productName = EasonMusic8;
+			productReference = CCF746371C199E18002A87ED /* EasonMusic8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF7464F1C199E18002A87ED /* EasonMusic8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF746671C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8Tests" */;
+			buildPhases = (
+				CCF7464C1C199E18002A87ED /* Sources */,
+				CCF7464D1C199E18002A87ED /* Frameworks */,
+				CCF7464E1C199E18002A87ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF746521C199E18002A87ED /* PBXTargetDependency */,
+			);
+			name = EasonMusic8Tests;
+			productName = EasonMusic8Tests;
+			productReference = CCF746501C199E18002A87ED /* EasonMusic8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF7465A1C199E18002A87ED /* EasonMusic8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF7466A1C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8UITests" */;
+			buildPhases = (
+				CCF746571C199E18002A87ED /* Sources */,
+				CCF746581C199E18002A87ED /* Frameworks */,
+				CCF746591C199E18002A87ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF7465D1C199E18002A87ED /* PBXTargetDependency */,
+			);
+			name = EasonMusic8UITests;
+			productName = EasonMusic8UITests;
+			productReference = CCF7465B1C199E18002A87ED /* EasonMusic8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF7462F1C199E18002A87ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCF746361C199E18002A87ED = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CCF7464F1C199E18002A87ED = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CCF746361C199E18002A87ED;
+					};
+					CCF7465A1C199E18002A87ED = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CCF746361C199E18002A87ED;
+					};
+				};
+			};
+			buildConfigurationList = CCF746321C199E18002A87ED /* Build configuration list for PBXProject "EasonMusic8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF7462E1C199E18002A87ED;
+			productRefGroup = CCF746381C199E18002A87ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF746361C199E18002A87ED /* EasonMusic8 */,
+				CCF7464F1C199E18002A87ED /* EasonMusic8Tests */,
+				CCF7465A1C199E18002A87ED /* EasonMusic8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF746351C199E18002A87ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6E99591C2153A30097EA3B /* all_favorite_btn_check_on_grey@2x.png in Resources */,
+				CCF746E21C199E44002A87ED /* 边框3.png in Resources */,
+				CCF746B21C199E44002A87ED /* Eason1.jpg in Resources */,
+				CCF746B91C199E44002A87ED /* flake.png in Resources */,
+				CC6E99821C2153A30097EA3B /* 播放.png in Resources */,
+				CCD6808F1C2109740016F96E /* 好久不见.lrc in Resources */,
+				CCF746C51C199E44002A87ED /* mt09.jpg in Resources */,
+				CC6E99841C2153A30097EA3B /* 暂停.png in Resources */,
+				CCF7464A1C199E18002A87ED /* LaunchScreen.storyboard in Resources */,
+				CC6E99831C2153A30097EA3B /* 播放队列.png in Resources */,
+				CC6E998D1C2153A30097EA3B /* 歌词4on.png in Resources */,
+				CCF747041C19A50B002A87ED /* 不如不见.jpg in Resources */,
+				CC6E99921C2153A30097EA3B /* 随机播放@2x.png in Resources */,
+				CCF746DA1C199E44002A87ED /* 陈奕迅 - 爱情转移.mp3 in Resources */,
+				CCF746D11C199E44002A87ED /* 陈奕迅 - 十年.mp3 in Resources */,
+				CC6E997F1C2153A30097EA3B /* 半颗星.png in Resources */,
+				CC6E99511C2153A30097EA3B /*  yueku_banner_MV@2x.png in Resources */,
+				CC6E99611C2153A30097EA3B /* Audio_01@2x.png in Resources */,
+				CC6E99531C2153A30097EA3B /* add_normal@2x.png in Resources */,
+				CCF747081C19A50B002A87ED /* flake.png in Resources */,
+				CC6E99701C2153A30097EA3B /* BeautyBackgroundImage@2x.png in Resources */,
+				CCF746B61C199E44002A87ED /* EasonLife.jpg in Resources */,
+				CC6E99721C2153A30097EA3B /* bg_disc_default@2x.png in Resources */,
+				CC6E996D1C2153A30097EA3B /* audio_list_item_more_up@2x.png in Resources */,
+				CC6E99571C2153A30097EA3B /* alertlabel02.png in Resources */,
+				CC6E99731C2153A30097EA3B /* BG_Img.png in Resources */,
+				CCF746AD1C199E44002A87ED /* 4.png in Resources */,
+				CC4CDCE41C1D8313008EA32B /* 陈奕迅 - K歌之王.mp3 in Resources */,
+				CCF746FD1C19A50B002A87ED /* 圣诞节.jpg in Resources */,
+				CCF746D91C199E44002A87ED /* 陈奕迅 - 淘汰.mp3 in Resources */,
+				CCF746B31C199E44002A87ED /* Eason2.jpg in Resources */,
+				CC6E99071C21499D0097EA3B /* BG_Img.png in Resources */,
+				CC6E99651C2153A30097EA3B /* Audio_05@2x.png in Resources */,
+				CCF746B81C199E44002A87ED /* Eason专辑图1.jpg in Resources */,
+				CC6E99931C2153A30097EA3B /* 音效4.png in Resources */,
+				CC6E995B1C2153A30097EA3B /* AppIcon57x57.png in Resources */,
+				CC6E99751C2153A30097EA3B /* bg_pay_loading@2x.png in Resources */,
+				CCF746FE1C19A50B002A87ED /* 稳稳的幸福.jpg in Resources */,
+				CCF746BB1C199E44002A87ED /* lauch_01.png in Resources */,
+				CC1FC6211C1A6FAA00BABC15 /* 陈奕迅 - 陪你度过漫长岁月.mp3 in Resources */,
+				CCD680961C2109740016F96E /* 陪你度过漫长岁月.lrc in Resources */,
+				CCF747021C19A50B002A87ED /* eason好久不见.jpg in Resources */,
+				CC6E998C1C2153A30097EA3B /* 歌词4.png in Resources */,
+				CCF746C31C199E44002A87ED /* mt07.jpg in Resources */,
+				CCF746B11C199E44002A87ED /* Eason5.jpg in Resources */,
+				CC6E99671C2153A30097EA3B /* Audio_07@2x.png in Resources */,
+				CC6E995D1C2153A30097EA3B /* AppIcon60x60@2x.png in Resources */,
+				CCD680951C2109740016F96E /* 红玫瑰.lrc in Resources */,
+				CC6E99941C2153A30097EA3B /* 音效4on.png in Resources */,
+				CCF746E01C199E44002A87ED /* 边框1.png in Resources */,
+				CCF746CA1C199E44002A87ED /* musicimage5.jpg in Resources */,
+				CCF747001C19A50B002A87ED /* 雪背景图漫画.jpg in Resources */,
+				CCF747031C19A50B002A87ED /* eason红玫瑰.jpg in Resources */,
+				CC6E995A1C2153A30097EA3B /* all_favorite_btn_check_on_pressed@2x.png in Resources */,
+				CCF746B71C199E44002A87ED /* EasonLife.png in Resources */,
+				CCD680921C2109740016F96E /* 最佳损友.lrc in Resources */,
+				CCF746DF1C199E44002A87ED /* 线条小图标网页图标设计模板下载(图片编号:13149657)_其他_图标_我图网weili.ooopic.com.webarchive in Resources */,
+				CCF746FC1C19A50B002A87ED /* 你给我听好歌词图片.jpg in Resources */,
+				CCF746BE1C199E44002A87ED /* mt02.jpg in Resources */,
+				CC6E996A1C2153A30097EA3B /* audio_item_icon_nocopyright.png in Resources */,
+				CCF746BF1C199E44002A87ED /* mt03.jpg in Resources */,
+				CC6E995C1C2153A30097EA3B /* AppIcon57x57@2x.png in Resources */,
+				CCF747061C19A50B002A87ED /* eason一丝不挂.jpg in Resources */,
+				CCF746AA1C199E44002A87ED /* 1.png in Resources */,
+				CCF746C81C199E44002A87ED /* musicimage3.jpg in Resources */,
+				CCD680901C2109740016F96E /* 孤独患者.lrc in Resources */,
+				CCF746D81C199E44002A87ED /* 陈奕迅 - 浮夸.mp3 in Resources */,
+				CCF746B51C199E44002A87ED /* Eason4.jpg in Resources */,
+				CC6E997A1C2153A30097EA3B /* 写真.png in Resources */,
+				CC6E99951C2153A30097EA3B /* 音量@2x.png in Resources */,
+				CC6E997D1C2153A30097EA3B /* 分享.png in Resources */,
+				CCF746EB1C199E7D002A87ED /* songlistTableViewCell.xib in Resources */,
+				CC6E99521C2153A30097EA3B /* add_normal.png in Resources */,
+				CC6E99551C2153A30097EA3B /* AddNomal_Skin.png in Resources */,
+				CCF746FF1C19A50B002A87ED /* 雪 女孩.jpg in Resources */,
+				CC6E997E1C2153A30097EA3B /* 前进.png in Resources */,
+				CC6E99781C2153A30097EA3B /* bg_special_default@2x.png in Resources */,
+				CCF746E11C199E44002A87ED /* 边框2.png in Resources */,
+				CC6E99741C2153A30097EA3B /* bg_listen_header@2x.jpg in Resources */,
+				CCF746AF1C199E44002A87ED /* 6.png in Resources */,
+				CC6E99561C2153A30097EA3B /* album_mask@2x.png in Resources */,
+				CC6E99811C2153A30097EA3B /* 后退.png in Resources */,
+				CC6E997C1C2153A30097EA3B /* 写真4on.png in Resources */,
+				CCD680911C2109740016F96E /* 打回原形.lrc in Resources */,
+				CCF746C41C199E44002A87ED /* mt08.jpg in Resources */,
+				CCF746EE1C199F6C002A87ED /* EasonMusic.plist in Resources */,
+				CCF746CB1C199E44002A87ED /* roll.png in Resources */,
+				CC6E99691C2153A30097EA3B /* audio_item_icon_local_default@2x.png in Resources */,
+				CCF746C91C199E44002A87ED /* musicimage4.jpg in Resources */,
+				CCD6808C1C2109740016F96E /* K歌之王.lrc in Resources */,
+				CC5F86A01C23D46600487886 /* process_thumb@2x.png in Resources */,
+				CC6E998E1C2153A30097EA3B /* 第一层级bg@2x.png in Resources */,
+				CC6E99761C2153A30097EA3B /* bg_personal_info.png in Resources */,
+				CCF746DD1C199E44002A87ED /* voice.png in Resources */,
+				CC6E99091C2150E30097EA3B /* BGlrc.jpg in Resources */,
+				CCF746DB1C199E44002A87ED /* 陈奕迅 - 红玫瑰.mp3 in Resources */,
+				CC6E99881C2153A30097EA3B /* 歌曲4.png in Resources */,
+				CCF746AB1C199E44002A87ED /* 2.png in Resources */,
+				CC6E99601C2153A30097EA3B /* arrow_up@2x.png in Resources */,
+				CCF746C61C199E44002A87ED /* musicimage1.jpg in Resources */,
+				CC6E99661C2153A30097EA3B /* Audio_06@2x.png in Resources */,
+				CCF746E41C199E44002A87ED /* 音乐播放器UI工具包模板下载(图片编号:13362449)_手机APP图标_图标_我图网weili.ooopic.com.webarchive in Resources */,
+				CC6E99771C2153A30097EA3B /* bg_personal_info@2x.png in Resources */,
+				CCF747071C19A50B002A87ED /* Eason运气.png in Resources */,
+				CCF746C71C199E44002A87ED /* musicimage2.jpg in Resources */,
+				CC6E99801C2153A30097EA3B /* 单曲循环@2x.png in Resources */,
+				CC6E99641C2153A30097EA3B /* Audio_04@2x.png in Resources */,
+				CCF746AC1C199E44002A87ED /* 3.png in Resources */,
+				CC6E996E1C2153A30097EA3B /* audio_list_item_more_up_pressed@2x.png in Resources */,
+				CC6E99961C2153A30097EA3B /* 顺序播放@2x.png in Resources */,
+				CCF746AE1C199E44002A87ED /* 5.png in Resources */,
+				CC6E99711C2153A30097EA3B /* BeautyDetailBackgroundImage@2x.png in Resources */,
+				CCF746B41C199E44002A87ED /* Eason3.jpg in Resources */,
+				CC6E998B1C2153A30097EA3B /* 歌词.png in Resources */,
+				CCF746BD1C199E44002A87ED /* mt01.jpg in Resources */,
+				CC6E998F1C2153A30097EA3B /* 第一层级bg@3x.png in Resources */,
+				CC6E995E1C2153A30097EA3B /* arrow.png in Resources */,
+				CC6E99901C2153A30097EA3B /* 第一层级bg_6@2x.png in Resources */,
+				CCF746C01C199E44002A87ED /* mt04.jpg in Resources */,
+				CCF746E31C199E44002A87ED /* 边框4.png in Resources */,
+				CC6E99791C2153A30097EA3B /* 写真-on.png in Resources */,
+				CCF747051C19A50B002A87ED /* eason夕阳无限好.jpg in Resources */,
+				CC6E99681C2153A30097EA3B /* Audio_08@2x.png in Resources */,
+				CC6E996C1C2153A30097EA3B /* audio_item_icon_pressed@2x.png in Resources */,
+				CC6E996B1C2153A30097EA3B /* audio_item_icon_nokugou.png in Resources */,
+				CCF746CD1C199E44002A87ED /* 陈奕迅 - 一丝不挂.mp3 in Resources */,
+				CCF746BC1C199E44002A87ED /* lauch_02.png in Resources */,
+				CCD6808D1C2109740016F96E /* 一丝不挂.lrc in Resources */,
+				CC6E99631C2153A30097EA3B /* Audio_03@2x.png in Resources */,
+				CC6E99911C2153A30097EA3B /* 第一层级bg——B.png in Resources */,
+				CCF746DE1C199E44002A87ED /* 线性图标集合模板下载(图片编号:13227580)_居家生活图标_图标_我图网weili.ooopic.com.webarchive in Resources */,
+				CCD680931C2109740016F96E /* 浮夸.lrc in Resources */,
+				CC6E99861C2153A30097EA3B /* 歌曲-on.png in Resources */,
+				CCF747011C19A50B002A87ED /* a9d3fd1f4134970a01eea60294cad1c8a7865d79.jpg in Resources */,
+				CC6E998A1C2153A30097EA3B /* 歌词-on.png in Resources */,
+				CC6E99891C2153A30097EA3B /* 歌曲4on.png in Resources */,
+				CC6E99871C2153A30097EA3B /* 歌曲.png in Resources */,
+				CCF746C11C199E44002A87ED /* mt05.jpg in Resources */,
+				CC6E99541C2153A30097EA3B /* add_normal_bg.png in Resources */,
+				CCF746BA1C199E44002A87ED /* icon.png in Resources */,
+				CC6E997B1C2153A30097EA3B /* 写真4.png in Resources */,
+				CCF746D61C199E44002A87ED /* 陈奕迅 - 最佳损友.mp3 in Resources */,
+				CC6E99621C2153A30097EA3B /* Audio_02@2x.png in Resources */,
+				CC6E99851C2153A30097EA3B /* 橙色星星.png in Resources */,
+				CCF746B01C199E44002A87ED /* 7.png in Resources */,
+				CCDA09F51C201D6500FF82D8 /* 陈奕迅 - 好久不见.mp3 in Resources */,
+				CCF746D51C199E44002A87ED /* 陈奕迅 - 打回原形.mp3 in Resources */,
+				CCD6808E1C2109740016F96E /* 十年.lrc in Resources */,
+				CCF746471C199E18002A87ED /* Assets.xcassets in Resources */,
+				CC6E995F1C2153A30097EA3B /* arrow_down@2x.png in Resources */,
+				CCF746C21C199E44002A87ED /* mt06.jpg in Resources */,
+				CC6E996F1C2153A30097EA3B /* bannerAlertBg@2x.png in Resources */,
+				CCD680941C2109740016F96E /* 淘汰.lrc in Resources */,
+				CC6E99581C2153A30097EA3B /* alipay@2x.png in Resources */,
+				CCF746451C199E18002A87ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7464E1C199E18002A87ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF746591C199E18002A87ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF746331C199E18002A87ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5F86A31C23E6C600487886 /* UIView+Extension.m in Sources */,
+				CC084B301C1EEC5700A59BBD /* AlbumViewController.m in Sources */,
+				CCB75C1F1C1B02AC00A1500F /* songplayViewController.m in Sources */,
+				CCF7470B1C19B056002A87ED /* resultTableViewController.m in Sources */,
+				CCF746EC1C199E7D002A87ED /* songsModel.m in Sources */,
+				CCF746EA1C199E7D002A87ED /* songlistTableViewCell.m in Sources */,
+				CCF746421C199E18002A87ED /* listViewController.m in Sources */,
+				CCF7463F1C199E18002A87ED /* AppDelegate.m in Sources */,
+				CC5F86E61C243DD300487886 /* LRCModel.m in Sources */,
+				CC084B341C1EED0000A59BBD /* EasonScrollView.m in Sources */,
+				CCF7463C1C199E18002A87ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF7464C1C199E18002A87ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF746551C199E18002A87ED /* EasonMusic8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF746571C199E18002A87ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF746601C199E18002A87ED /* EasonMusic8UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF746521C199E18002A87ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF746361C199E18002A87ED /* EasonMusic8 */;
+			targetProxy = CCF746511C199E18002A87ED /* PBXContainerItemProxy */;
+		};
+		CCF7465D1C199E18002A87ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF746361C199E18002A87ED /* EasonMusic8 */;
+			targetProxy = CCF7465C1C199E18002A87ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF746431C199E18002A87ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF746441C199E18002A87ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF746481C199E18002A87ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF746491C199E18002A87ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF746621C199E18002A87ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF746631C199E18002A87ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF746651C199E18002A87ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasonMusic8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF746661C199E18002A87ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasonMusic8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCF746681C199E18002A87ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasonMusic8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasonMusic8.app/EasonMusic8";
+			};
+			name = Debug;
+		};
+		CCF746691C199E18002A87ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EasonMusic8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasonMusic8.app/EasonMusic8";
+			};
+			name = Release;
+		};
+		CCF7466B1C199E18002A87ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasonMusic8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasonMusic8;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCF7466C1C199E18002A87ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EasonMusic8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.EasonMusic8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EasonMusic8;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF746321C199E18002A87ED /* Build configuration list for PBXProject "EasonMusic8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF746621C199E18002A87ED /* Debug */,
+				CCF746631C199E18002A87ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF746641C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF746651C199E18002A87ED /* Debug */,
+				CCF746661C199E18002A87ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF746671C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF746681C199E18002A87ED /* Debug */,
+				CCF746691C199E18002A87ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF7466A1C199E18002A87ED /* Build configuration list for PBXNativeTarget "EasonMusic8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF7466B1C199E18002A87ED /* Debug */,
+				CCF7466C1C199E18002A87ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF7462F1C199E18002A87ED /* Project object */;
+}
